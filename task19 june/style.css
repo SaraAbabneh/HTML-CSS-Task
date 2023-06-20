@@ -4,11 +4,12 @@
     font-weight: bold;
 
 }
-div{
+ div{
     width: 60%;
 }
 .task1 div{
     text-align: justify;
+    margin: 5px;
 }
 .task1.first-div{
     color: orange;
@@ -64,7 +65,7 @@ div{
 
 
 }
-.task4.first-div ,.third-div{
+.task4.first-div ,.task4.third-div{
     border: 2px solid black;
     background-color: white;
 }
@@ -109,7 +110,7 @@ div{
     font-weight: bolder;   
 
 }
-.task5.first-div ,.secound-div{
+.task5.first-div ,.task5.secound-div{
     border: 2px solid black;
     background-color: white;
 }
