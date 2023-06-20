@@ -1,0 +1,143 @@
+
+.task1 h1{
+    font-size: large;
+    font-weight: bold;
+
+}
+div{
+    width: 60%;
+}
+.task1 div{
+    text-align: justify;
+}
+.task1.first-div{
+    color: orange;
+}
+
+.task1 span {
+    font-weight: bold;
+}
+.task1.third-div{
+    background-image: url(data:image/jpeg;base64,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);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.task2 p{
+    margin: 5px;
+}
+.task2.first-p
+{
+    color: orange;
+    font-size:xxx-large ;
+
+}
+.task2.secound-p{
+    text-align: right;
+    font-weight: bolder;
+    font-size:x-large ;
+
+}
+.task2.fourth-p{
+    text-align: right;
+    font-size: smaller;
+    color: rgb(114, 107, 107);
+
+   
+
+}
+#bodycolor{
+    background-color:#FFF7F0;
+}
+.task4  {
+    margin: 10px;
+    padding: 20px;
+    text-align: justify;
+}
+.task4 h1{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.task4 span{
+    font-weight: bolder;
+    
+
+
+}
+.task4.first-div ,.third-div{
+    border: 2px solid black;
+    background-color: white;
+}
+.task4.secound-div{
+    border: 2px dashed black;
+    background-color: white;
+}
+.task4 .orange{
+    font-weight: bolder;
+    background-color: #FDCA96;
+}
+
+.task4 .yellow{
+    background-color:#FDFD96;
+    font-weight: bolder;
+
+}
+.task4.third-div p{
+    color: blueviolet;
+}
+.task4.secound-div p{
+    padding: 2px;
+    border: 2px dashed red;
+}
+
+
+
+
+#bodycolor1{
+    background-color:#FFFFCE;
+}
+.task5  {
+    margin: 10px;
+    padding: 20px;
+    text-align: justify;
+}
+.task5 h1{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.task5 span{
+    font-weight: bolder;   
+
+}
+.task5.first-div ,.secound-div{
+    border: 2px solid black;
+    background-color: white;
+}
+.task5.third-div{
+    border: 2px dashed black;
+    background-color: white;
+}
+.task5 .orange{
+    font-weight: bolder;
+    background-color: #FDCA96;
+}
+
+.task5 .yellow{
+    background-color:#FDFD96;
+    font-weight: bolder;
+
+}
+.task5.third-div p{
+    color: red;
+}
+.task5.third-div p{
+    padding: 2px;
+    border: 2px dashed red;
+}
+.task5.third-div span{
+    color: red;
+
+
+
+
+
