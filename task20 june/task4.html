@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            margin-left: 10px;
+        }
+
+      
+        .position{
+            border:.5px dotted black;
+            margin: 3px 2px;
+            float: left; /* ال div الكبر رح الcontainer رح يتقلص ويطلع فوقهم */
+            height: auto;
+        }
+        .clear{
+            clear: both;
+        }
+        .red,.green{
+            width: 100px;
+            min-height: 100px;
+            float: left;  
+        }
+        .red{
+            background-color: red;
+        }
+        .green{
+            background-color: green;
+        }
+         .green{
+            margin: 0px 0px 0px 4px;
+
+        }
+        .box3{
+            margin: 0 4px;
+        }
+        /* .relative{
+            position: relative;
+        } */
+        .relative .green{
+            position:relative;
+            top: 20px;
+            left:25px;   
+        }
+        .absolute{
+            position: relative;/* لحتى الbox الاخضر يبدأ من يتحرك من الاب*/
+        }
+        .absolute .green{
+            position: absolute;
+            top:10px;
+            left: 5px;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p> position:static</p>
+        <div class="position static">
+            <div class="red"> One</div>
+            <div class="green"> Two</div>
+            <div class="red box3"> Three</div>
+            <div class="red"> Foure</div>
+            
+        </div>
+        <div class="clear"></div>
+
+        <p> position:relative</p>
+        <div class="position relative">
+            <div class="red"> One</div>
+            <div class="green"> Two</div>
+            <div class="red box3"> Three</div>
+            <div class="red"> Foure</div>   
+        </div>
+        <div class="clear"></div>
+
+        <p> position:absolute</p>
+        <div class="position absolute">
+            <div class="red"> One</div>
+            <div class="green"> Two</div>
+            <div class="red box3"> Three</div>
+            <div class="red"> Foure</div>
+            
+        </div>
+    </div>
+
+   
+</body>
+</html>
