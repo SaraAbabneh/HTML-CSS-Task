@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        html, body {
+         
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 60%;
+            height: 100%;
+            margin: auto;
+            margin-top: 2rem;
+      
+        }
+
+        .green{
+            width: 100%;
+            background-color: greenyellow;
+            min-height:12rem;
+    
+        }
+
+        .grid1{
+            display: grid;
+            grid-template-columns:repeat(3,auto);
+            column-gap: 2rem; 
+
+        }
+
+        .blue{
+            background-color: skyblue;
+            min-height: 12rem;
+            margin-top: 1rem;
+        }
+
+        .grid2{
+            display: grid;
+            grid-template-columns:repeat(4,auto);
+            column-gap: 4.5rem;
+      
+        }
+
+        .gray{
+            background-color: gray;
+            min-height: 9rem;
+            margin-top: 1rem;
+          
+        }
+        @media screen and ((min-width: 481px)and (max-width:768px))
+        {   
+            .green{
+            width: 100%;
+            background-color: greenyellow;
+            min-height:6rem;
+    
+            }
+            .grid1{
+                display: grid;
+                grid-template-columns:repeat(1,auto);
+    
+            } 
+
+            .blue{
+                background-color: skyblue;
+                width: 100%;
+                min-height: 2.5rem;
+                margin-top: 0.5rem;
+            }
+            .grid2{
+                display: grid;
+                grid-template-columns:repeat(2,auto);
+                column-gap: 1.5rem;
+        
+            }
+             
+            .gray{
+            background-color: gray;
+            min-height: 2.5rem;
+            margin-top: 0.5rem;
+          
+        }
+    
+        }
+        @media screen and (max-width:480px){
+
+            .container {
+            width: 50%;
+            }
+            .green{
+                width: 100%;
+                background-color: greenyellow;
+                min-height:6rem;
+            }
+
+            .grid1{
+                display: grid;
+                grid-template-columns:repeat(1,auto);
+    
+            } 
+            .blue{
+                background-color: skyblue;
+                width: 100%;
+                min-height: 4.5rem;
+                margin-top: 0.5rem;
+            }
+            .grid2{
+                display: grid;
+                grid-template-columns:repeat(1,auto);
+                column-gap: 1.5rem;
+        
+            }
+             
+            .gray{
+                background-color: gray;
+                min-height: 2.5rem;
+                margin-top: 1rem;
+            }
+
+            .gray:not(.gr1){
+                display: none;
+            }
+            
+        }
+
+
+
+
+
+
+       
+            
+       
+
+
+
+        
+        
+
+            
+        
+
+
+
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="green"></div>
+            <div class="grid1">
+                <div class="blue"></div>
+                <div class="blue"></div>
+                <div class="blue"></div>
+            </div>
+            <div class="grid2">
+                <div class="gray gr1"></div>
+                <div class="gray"></div>
+                <div class="gray"></div>
+                <div class="gray"></div>
+            </div>
+
+           
+            
+        </div>
+    </body>
+</html>
