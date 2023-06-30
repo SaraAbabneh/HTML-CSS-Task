@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .card{
+      display: inline-block;
+    }
+   
+  </style>
+
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse ">
+    <div class="container" >
+    
+        <div class="navbar-header">
+          <a class="navbar-brand" style="font-size: small;" href="#">Bootstrap Mini-Project</a>
+        </div>
+        <ul class="nav navbar-nav" style="font-size: small;">
+          <li><a href="#">Home</a></li>
+          <li class="active"><a href="#">About</a></li>
+          <li><a href="#">contact</a></li>
+          <li class="dropdown-toggle" data-toggle="dropdown"><a href="#">Dropdowen<span class="caret"></span></a></li>
+        </ul>
+        <form class="form-inline navbar-form" action="/action_page.php">
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+            <input type="password" class="form-control"  id="pwd" placeholder="Password" name="pwd">
+          </div>
+          
+          <button type="submit" class="btn btn-sm" style="background-color: rgb(13, 104, 13); color: white;">Sign in</button>
+        </form>
+      
+    </div>
+        
+  </nav>
+
+  
+    <div class="jumbotron jumbotron-fluid ">
+      <div class="container">
+        <h2>Hello , worid!</h2>
+      <p style="font-size: small;">this is Exercies #9. it includes a large callout a jumbotton and three supporting of content</p>
+      <button type="submit" class="btn btn-primary">Learn More</button>
+      </div>
+    
+    </div>
+      
+    
+    <div class="container">
+
+      <div class="alert alert-warning alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Warning!</strong> our subscription is about to expire in 3 days..
+      </div>
+
+      <div class="card" style="width: 30%">
+        <h2>Heading</h2>
+        <p>
+          Lorem ipsum dolor sit amet,consectetur 
+          adipisicing elit, sed do eiusmod tempor 
+          incididunt ut labore et dolore .
+        </p>
+        <button type="button" class="btn btn-default"><i class="fa fa-bar-chart"></i> View Details</button>
+
+      </div>
+      <div class="card " style="width: 30%; margin: 0px 10px;">
+        <h2>Heading</h2>
+        <p>
+          Lorem ipsum dolor sit amet,consectetur 
+          adipisicing elit, sed do eiusmod tempor 
+          incididunt ut labore et dolore .
+        </p>
+        <button type="button" class="btn btn-default"><i class='fas fa-mobile-alt'></i> View Details</button>
+
+      </div>
+      <div class="card" style="width: 30%;">
+        <h2>Heading</h2>
+        <p >
+          Lorem ipsum dolor sit amet,consectetur 
+          adipisicing elit, sed do eiusmod tempor 
+          incididunt ut labore et dolore .
+        </p>
+        <button type="button" class="btn btn-default"><i class='fas fa-map-marker-alt'></i> View Details</button>
+
+      </div>
+   
+  </div>
+
+</body>
+</html>
